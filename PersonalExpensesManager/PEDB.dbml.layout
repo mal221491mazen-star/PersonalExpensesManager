@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.625" name="PEDB">
+  <DataContextMoniker Name="/PEDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="23b53b0b-1ec9-42bd-8f75-3014bc936ae0" absoluteBounds="3.75, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PEDBDataContext/Budget" />
+      <nestedChildShapes>
+        <elementListCompartment Id="785a1c2b-3c0f-4345-8a41-22884535b7d9" absoluteBounds="3.765, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27b00381-f9c8-477b-85a3-5891390af3d5" absoluteBounds="8.375, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PEDBDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd7fc659-3797-4345-a69b-0294e20fe4a0" absoluteBounds="8.39, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 3.90625); (5.65625 : 3.90625); (5.65625 : 3.0881982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PEDBDataContext/Category/Category_Budget" />
+      <nodes>
+        <classShapeMoniker Id="27b00381-f9c8-477b-85a3-5891390af3d5" />
+        <classShapeMoniker Id="23b53b0b-1ec9-42bd-8f75-3014bc936ae0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a1bdc04d-de44-4e6c-b668-e6c744b3ad33" absoluteBounds="3, 4.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/PEDBDataContext/Transaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dea78a66-12f4-4c06-8ba9-2cf5b1bc57df" absoluteBounds="3.015, 5.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 4.421877); (4 : 4.421877); (4 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PEDBDataContext/Category/Category_Transaction" />
+      <nodes>
+        <classShapeMoniker Id="27b00381-f9c8-477b-85a3-5891390af3d5" />
+        <classShapeMoniker Id="a1bdc04d-de44-4e6c-b668-e6c744b3ad33" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="da2fe736-8c3e-421c-9799-06300aaaaef5" absoluteBounds="7.875, 7.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/PEDBDataContext/vw_DashboardSummary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52a77dfa-b796-467d-9dd7-a083c216e0a5" absoluteBounds="7.89, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4405dd84-9523-4e5d-8ac5-f936453e9d2e" absoluteBounds="4.5, 8, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PEDBDataContext/vw_MonthlyCategoryExpense" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4fe59e1-4bce-498f-8c5d-4dd573a5aa7b" absoluteBounds="4.515, 8.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42489823-3ed3-47c9-8f5e-f1800f69fecd" absoluteBounds="1.5, 7.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/PEDBDataContext/vw_Transaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f1596ba-c312-4892-92f1-4ca66e735c05" absoluteBounds="1.5150000000000001, 8.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
