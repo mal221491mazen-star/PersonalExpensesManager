@@ -28,25 +28,25 @@ Personal Expenses Manager is a Windows desktop application designed to provide a
 
 The dashboard provides a quick overview of the user's financial position, including income, expenses, balance, monthly spending, and recent transactions.
 
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](PersonalExpensesManager/Screenshots/dashboard.JPG)
 
 ### Add Transaction
 
 The add transaction screen allows users to select the transaction type, choose a category, enter the amount, select a date, and add an optional description.
 
-![Add Transaction](Screenshots/add-transaction.png)
+![Add Transaction](PersonalExpensesManager/Screenshots/add-transaction.jpg)
 
 ### Transactions
 
 The transactions screen displays saved operations in a searchable and filterable table.
 
-![Transactions](Screenshots/transactions.png)
+![Transactions](PersonalExpensesManager/Screenshots/transactions.jpg)
 
 ### Reports
 
 The reports screen presents financial summaries and charts for selected periods.
 
-![Reports](Screenshots/reports.png)
+![Reports](PersonalExpensesManager/Screenshots/reports.jpg)
 
 ## Technologies Used
 
@@ -88,22 +88,21 @@ Personal-Expenses-Manager-WinForms/
 │
 ├── PersonalExpensesManager.sln
 ├── PersonalExpensesManager/
-│   ├── Forms/
-│   ├── Models/
-│   ├── Data/
-│   └── Resources/
-│
-├── Database/
-│   ├── PersonalExpensesDB.sql
-│   └── PersonalExpensesDB_SampleData.sql
-│
-├── Screenshots/
-│   ├── dashboard.png
-│   ├── add-transaction.png
-│   ├── transactions.png
-│   └── reports.png
+│       ├── Forms/
+│       ├── Models/
+│       ├── Data/
+│       └── Resources/
+|   ├── Database/
+│       ├── PersonalExpensesDB.sql
+│       └── PersonalExpensesDB_SampleData.sql
+│   ├── Screenshots/
+│       ├── dashboard.png
+│       ├── add-transaction.jpg
+│       ├── transactions.jpg
+│       └── reports.jpg
 │
 ├── README.md
+|-- .gitattributes
 └── .gitignore
 ```
 
@@ -144,36 +143,18 @@ Do not publish passwords or private credentials in the repository.
 Create a folder named `Screenshots` in the same location as this README file. Save your screenshots using these names:
 
 ```text
-Screenshots/dashboard.png
-Screenshots/add-transaction.png
-Screenshots/transactions.png
-Screenshots/reports.png
+PersonalExpensesManager/Screenshots/dashboard.jpg
+PersonalExpensesManager/Screenshots/add-transaction.jpg
+PersonalExpensesManager/Screenshots/transactions.jpg
+PersonalExpensesManager/Screenshots/reports.jpg
 ```
 
 The image link in Markdown must match the file path exactly:
 
 ```markdown
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](PersonalExpensesManager/Screenshots/dashboard.jpg)
 ```
 
-Use PNG images with a clear resolution. A width between 1200 and 1800 pixels is suitable for interface screenshots.
-
-## Git Commands
-
-After adding the README and screenshots to the project folder, run:
-
-```bash
-git add README.md Screenshots/
-git commit -m "Add professional README and project screenshots"
-git push
-```
-
-If this is the first upload to GitHub, use:
-
-```bash
-git branch -M main
-git push -u origin main
-```
 
 ## Future Improvements
 
