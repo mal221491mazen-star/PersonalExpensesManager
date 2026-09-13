@@ -136,24 +136,6 @@ For a local SQL Server instance using Windows Authentication:
 Data Source=.;Initial Catalog=PersonalExpensesDB;Integrated Security=True
 ```
 
-Do not publish passwords or private credentials in the repository.
-
-## How to Add Screenshots
-
-Create a folder named `Screenshots` in the same location as this README file. Save your screenshots using these names:
-
-```text
-PersonalExpensesManager/Screenshots/dashboard.jpg
-PersonalExpensesManager/Screenshots/add-transaction.jpg
-PersonalExpensesManager/Screenshots/transactions.jpg
-PersonalExpensesManager/Screenshots/reports.jpg
-```
-
-The image link in Markdown must match the file path exactly:
-
-```markdown
-![Dashboard](PersonalExpensesManager/Screenshots/dashboard.jpg)
-```
 
 
 ## Future Improvements
